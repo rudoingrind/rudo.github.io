@@ -1,0 +1,40 @@
+.big-banner
+{
+	background-image: url('../images/topbg.jpg');
+	background-position: center;
+
+	 background-size: cover;
+	padding-top: 0px;
+	
+	background-color: #3d7cbf; /* Цвет текста */
+	border-style:solid;
+	border-color: #3d7cbf;
+    border-bottom-width: 14px; 
+	border-top-width: 0px; 
+	border-left-width: 0px; 
+	border-right-width: 0px; 
+}
+
+.cont-color
+{
+	
+	
+	background-color: #3d7cbf; /* Цвет текста */
+	margin-top: 10px;
+  
+}
+.botm-menu-header
+{	
+	background-color: #3d7cbf; /* Цвет текста */
+	margin-top: 10px;  
+}
+.botm-menu-card
+{		
+	border: 0px;
+  }
+  .botm-menu-logo
+{		
+	border: 0px;
+	background-color: #6fa3d4;
+	padding: 0px;
+  }
