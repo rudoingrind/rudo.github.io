@@ -27,11 +27,42 @@
 {	
 	background-color: #3d7cbf; /* Цвет текста */
 	margin-top: 10px;  
+	
+	
 }
 .botm-menu-card
 {		
 	border: 0px;
+	 font-size: 21px;
+	 font-family: Bebasnr;
+	 padding-left:0px;
+	 padding-right:0px;
+
+	 
   }
+  
+  .botm-menu-header
+{		
+	border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+	 font-size: 21px;
+	 font-family: Bebasnr;
+	 padding-left:0px;
+	 padding-right:0px;
+	 color: white;
+	 	
+	 
+  }
+  
+  .botm-menu-body
+{		
+	border: 0px;
+		 font-size: 16px;
+	 font-family: Bebasnr;
+	  padding-left:0px;
+	 padding-right:0px;
+	 color: white;
+  }
+  
   .botm-menu-logo
 {		
 	border: 0px;
@@ -61,4 +92,86 @@
 
 .topnav a.active {
   border-top: 3px solid red;
+}
+/* not active */
+.nav-pills .pill-1 .nav-link:not(.active) {
+    background-color: rgba(246, 246, 246, 1);
+	 color: #919191;
+	  font-family: Bebasnr, 'Comic Sans MS', cursive;
+}
+
+.nav-pills .pill-2 .nav-link:not(.active) {
+    background-color: rgba(0, 250, 0, 0.5);
+}
+
+.nav-pills .pill-3 .nav-link:not(.active) {
+    background-color: rgba(0, 0, 250, 0.5);
+
+}
+
+
+/* active (faded) */
+.nav-pills .pill-1 .nav-link {
+    background-color: rgba(246, 246, 246, 1);
+     color: #919191;
+	  font-family: Bebasnr, 'Comic Sans MS', cursive;
+}
+
+.nav-pills .pill-2 .nav-link {
+    background-color: rgba(0, 250, 0, 0.2);
+}
+
+.nav-pills .pill-3 .nav-link {
+    background-color: rgba(0, 0, 250, 0.2);
+    color: white;
+}
+
+
+.badge-jumbo {
+  background-color: rgba(250, 250, 250, 0.2);
+    color: white;
+	 font-size: 24px;
+	 font-family: Bebasnr;
+}
+
+.badge-allnews{
+  background-color: rgba(250, 250, 250, 0.2);
+    color: #00a95b;
+	 font-size: 17px;
+	 font-family: Bebasnr;
+}
+
+.card-news{
+ 
+	 font-size: 19px;
+	 font-family: Bebasnr;
+}
+.card-date{
+ 
+	 font-size: 19px;
+	 font-family: Bebasnr;
+}
+.d-line-big{
+
+
+   margin-left:15px;
+   margin-right:10px;
+    border-radius: 0px 25px 25px 0px;
+   
+   height:5px;
+   width:120px;
+   
+}
+
+.d-line-small{
+ 
+   border-radius: 25px 25px 25px 25px;
+   margin-left:10px;
+   margin-right:10px;
+      height:5px;
+	     width:50px;
+}
+
+.box {
+   background: linear-gradient(45deg, #286db9 10%, white 10.1%, white 90%, #e68d00 90.1%);
 }

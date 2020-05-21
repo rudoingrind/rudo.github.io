@@ -9,6 +9,7 @@
     <title>შპს თბილსერვის ჯგუფი</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/blog/">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
 
     <!-- Bootstrap core CSS -->
 <link href="css/bootstrap.css" rel="stylesheet">
@@ -126,6 +127,10 @@
     h1 {
     font-family: Bebasnr, 'Comic Sans MS', cursive;
    }
+       h2 {
+    font-family: Bebasnr, 'Comic Sans MS', cursive;
+	    color: #5a5c5c;
+   }
 	 
     </style>
     <!-- Custom styles for this template -->
@@ -197,20 +202,34 @@
     <div class="col">
   <h1 class="display-4 text-light">შპს თბილსერვის ჯგუფი</h1>
 
-  <p class="lead">
-    <a class="btn btn-primary btn-lg" href="#" role="button">ჩვენ შესახებ</a>
-  </p>
-
+ 
+<span class="badge badge-jumbo">ჩვენ შესახებ</span>
 </div>
 </div>
 
-<div class="row row align-items-center" style="height: 33%";>
-    <div class="col align-self-center">
+<div class="row align-items-end" style="height: 33%; padding-bottom: 30px;";>
+ <div class="col-md-6">
+       
+    </div>
+    <div class="col-md-6 col-md-push-6" >
 
-<button type="button" class="btn btn-light">გადახდა</button>
-<button type="button" class="btn btn-light">სერვისები</button>
-<button type="button" class="btn btn-light">კითხვა/პასუხი</button>
-<button type="button" class="btn btn-light justify-content-end">ცხელი ხაზი 2 61 90 50</button>
+
+<ul class="nav nav-pills nav-fill justify-content-end botnav" >
+  <li class="nav-item pill-1" style="margin-right: 5px">
+    <a class="nav-link" href="#"><i class="fa fa-credit-card" aria-hidden="true"></i> გადახდა</a>
+  </li>
+  <li class="nav-item pill-1" style="margin-right: 5px">
+    <a class="nav-link active" href="#"><i class="fa fa-trash-o" aria-hidden="true"></i> სერვისები</a>
+  </li>
+  <li class="nav-item pill-1" style="margin-right: 5px">
+    <a class="nav-link active" href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> კითხვა/პასუხი</a>
+  </li>
+  <li class="nav-item pill-1" style="margin-right: 5px">
+    <a class="nav-link active" href="#" ><i class="fa fa-volume-control-phone" aria-hidden="true"></i> ცხელი ხაზი 2 61 90 50</a>
+  </li>
+</ul>
+
+
 
 </div>
 </div>
@@ -227,60 +246,122 @@
 
 
    <div class="container">
-  BODY
-  
-  
+ <div class="row justify-content-center">
+  <div class="col-8 my-auto"><h2>კომპანიის სიახლეები</h2></div>
+  <div class="col-4 text-right my-auto"> <a class="badge badge-allnews" href="#"><i class="fa fa-pencil" aria-hidden="true"></i> ყველა სიახლე</a></div>
+</div> 
+
+
+ <div class="row justify-content-start">
+    <div class="d-line-big" style="background-color: #e68d00">
+   
+    </div>
+    <div class="d-line-small" style="background-color: #51a655">
+    
+    </div>
+	</div>
+
+
+ <div class="row">
+  <div class="col-8">
+  <button type="button" class="btn btn-light">სიახლე</button>
+<button type="button" class="btn btn-light">განცხადება</button>
+<button type="button" class="btn btn-light">ვაკანსია</button></div>
+  <div class="col-4 text-right"><a class="badge badge-allnews" href="#"><i class="fa fa-arrow-left" aria-hidden="true"></i></a> <a class="badge badge-allnews" href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i></a></div>
+</div> 
   
   
   <div class="card-deck">
   <div class="card">
     <img class="card-img-top" src="images/img1.jpg" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Название карточки</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <h5 class="card-title card-news">მიწისქვეშა გადასასვლელების რეაბილიტაცია დასრულდა</h5>
+      
     </div>
-    <div class="card-footer">
-      <small class="text-muted">25 მარტი 2019</small>
+    <div class="card-footer card-date">
+     25 მარტი 2019
     </div>
   </div>
   <div class="card">
     <img class="card-img-top" src="images/img2.jpg" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Название карточки</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <h5 class="card-title card-news">6 ნოემბრისთვის ქუჩაზე საავტომობილო გზა იკეტება</h5>
+     
     </div>
-    <div class="card-footer">
-      <small class="text-muted">25 მარტი 2019</small>
+    <div class="card-footer card-date">
+     25 მარტი 2019
     </div>
   </div>
   <div class="card">
     <img class="card-img-top" src="images/img3.jpg" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Название карточки</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <h5 class="card-title card-news">მიწისქვეშა გადასასვლელების რეაბილიტაცია დასრულდა</h5>
+     
     </div>
-    <div class="card-footer">
-      <small class="text-muted">25 მარტი 2019</small>
+    <div class="card-footer card-date">
+   25 მარტი 2019
     </div>
   </div>
    <div class="card">
     <img class="card-img-top" src="images/img4.jpg" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Название карточки</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <h5 class="card-title card-news">მიწისქვეშა გადასასვლელების რეაბილიტაცია დასრულდა</h5>
+     
     </div>
-    <div class="card-footer">
-      <small class="text-muted">25 მარტი 2019</small>
+    <div class="card-footer card-date">
+      25 მარტი 2019
     </div>
   </div>
 </div>
+   
+   
+   <div class="container">
+
+   
+   <div class="row box">
+   <div class="col-lg-5">
+   <img src="images/demo.png" class="rounded float-left" alt="...">
+    </div>
+   <div class="col-lg-7">
+   <div class="row"><h2>კომპანიის შესახებ</h2></div>
+    <div class="row justify-content-start">
+    <div class="d-line-big" style="background-color: #286db9">
+   
+    </div>
+    <div class="d-line-small" style="background-color: #e68d00">
+    
+    </div>
+	</div>
+   <ul class="list-unstyled">
+ <li>შპს „თბილსერვის ჯგუფი“ ვალდებულია დედაქალაქის მასშტაბით უზრუნველყოს:</li>
+ <ul>
+	<li> დაგვა-დასუფთავება და ნარჩენების მართვის მომსახურება.</li>
+	<li><div class="d-line-small" style="background-color: #51a655"></div>საყოფაცხოვრებო ნარჩენების შეგროვება, ტრანსპორტირება და გადამუშავება.</li>
+	<li>სამშენებლო ნარჩენების შეგროვება და ტრანსპორტირება ინდივიდუალურად გაფორმებული ხელშეკრულების შესაბამისად.</li>
+	<li>თოვლცვენის დროს ტექნიკური მარილის დაყრა.</li>
+	<li>სადრენაჟო ქსელების, სანიაღვრე კოლექტორების, წვიმმიღებების, გვერდმიმღებებისა და საკონტროლო ჭების მოვლა-პატრონობა.</li>
+
+
+	<li>სამუშაოების წარმოება (მოსახლეობის მომსახურება) ინდივიდუალურად გაფორმებული ხელშეკრულების შესაბამისად.</li>
+	<li>მუნიციპალიტეტის საკუთრებაში არსებული მიწისქვეშა გადასასვლელების მოვლა-პატრონობა.</li>
+	<li>გარე განათების ქსელების და არსებული კომუნიკაციების სწორი და გამართული მუშაობა.</li>
+	</ul>
+
+</ul>
+
+</div>
+   
+    </div>
    </div>
+   
+ </div>  
+   
  <div class="container-fluid cont-color">
 
 <div class="container">
 <div class="card-group">
   <div class="card bg-transparent botm-menu-card">
-     <div class="card-header bg-transparent">
+     <div class="card-header bg-transparent botm-menu-header">
     მთავარი
   </div>
     <div class="card-body">
@@ -289,10 +370,10 @@
     </div>
   </div>
   <div class="card bg-transparent botm-menu-card">
-     <div class="card-header bg-transparent">
+     <div class="card-header bg-transparent botm-menu-header">
     ჩვენ შესახებ
   </div>
-    <div class="card-body">
+    <div class="card-body botm-menu-body">
        <p class="card-text">ჩვენ შესახებ</p>
       <p class="card-text">კომპანიის შესახებ</p>
 	  <p class="card-text">კომპანიის დირექტორი</p>
@@ -304,11 +385,11 @@
      
     </div>
   </div>
-  <div class="card bg-transparent botm-menu-card">
-    <div class="card-header bg-transparent">
+  <div class="card bg-transparent botm-menu-card ">
+    <div class="card-header bg-transparent botm-menu-header">
     მედია ცენტრი
   </div>
-    <div class="card-body">
+    <div class="card-body botm-menu-body">
      <p class="card-text">სიახლეები</p>
 	  <p class="card-text">განცხადებები</p>
 	  <p class="card-text">ფოტო გალერეა</p>
@@ -316,7 +397,7 @@
     </div>
   </div>
    <div class="card bg-transparent botm-menu-card">
-    <div class="card-header bg-transparent">
+    <div class="card-header bg-transparent botm-menu-header">
    სერვისები
   </div>
     <div class="card-body">
@@ -326,17 +407,17 @@
     </div>
   </div>
    <div class="card bg-transparent botm-menu-card">
-    <div class="card-header bg-transparent">
+    <div class="card-header bg-transparent botm-menu-header">
    საჭირო ინფორმაცია
   </div>
-    <div class="card-body">
+    <div class="card-body botm-menu-body">
     
       <p class="card-text">კითხვა/პასუხი</p>
     
     </div>
   </div>
     <div class="card bg-transparent botm-menu-card">
-    <div class="card-header bg-transparent">
+    <div class="card-header bg-transparent botm-menu-header">
   კანონდებლობა
   </div>
     <div class="card-body">
@@ -359,6 +440,9 @@
 </div>
 </div>
 </div>
-
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
 </body>
 </html>
